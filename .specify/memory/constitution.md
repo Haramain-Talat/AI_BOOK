@@ -1,55 +1,46 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# Physical AI & Humanoid Robotics Constitution
 
+<!--
+SYNC IMPACT REPORT
+Version change: N/A -> 1.0.0
+Added sections: Academic Rigor, Documentation-First, Docusaurus Framework, Output-Centric, Structured Content, Deployment Ready, Technology Requirements, Content Standards
+Removed sections: None
+Templates requiring updates:
+✅ .specify/templates/plan-template.md - Updated to reflect academic requirements
+✅ .specify/templates/spec-template.md - Updated for textbook content requirements
+✅ .specify/templates/tasks-template.md - Updated for documentation tasks
+Follow-up TODOs: None
+-->
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Academic Rigor
+All content must meet university-level academic standards with clear learning outcomes, concept explanations, and practical examples; diagrams must be accurately described in text
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Documentation-First
+Every chapter must be written in Markdown format with structured content including concept explanation, learning outcomes, diagrams, and practical examples
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Docusaurus Framework
+The documentation system must use Docusaurus for generating the textbook with proper navigation, table of contents, and deployable to GitHub Pages
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Output-Centric
+Focus on correct output generation rather than implementation steps; ensure proper generation of docs folder, sidebars.js, and docusaurus.config.js
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Structured Content
+Content style must be academic, structured, clean, and suitable for university-level education
 
-### [PRINCIPLE_6_NAME]
+### Deployment Ready
+All generated content must be deployable using GitHub Pages with proper homepage, sidebar navigation, and table of contents
 
+## Technology Requirements
 
-[PRINCIPLE__DESCRIPTION]
+Docusaurus framework, GitHub Pages deployment, Markdown format for chapters, automated generation of navigation files
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Content Standards
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Each chapter must include concept explanation, learning outcomes, diagrams described in text, and practical examples
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Constitution governs all content generations; amendments require documentation and approval; all chapters must comply with academic and structural requirements
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-01-01 | **Last Amended**: 2025-12-25
