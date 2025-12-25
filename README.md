@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Physical AI & Humanoid Robotics Textbook
 
 Welcome to the Physical AI & Humanoid Robotics textbook project. This is a comprehensive academic textbook built using Docusaurus and deployed on GitHub Pages.
@@ -104,3 +105,6 @@ This textbook is available under the [insert appropriate license here].
 ## Support
 
 If you encounter any issues or have questions, please open an issue in the GitHub repository.
+=======
+# AI_BOOK
+>>>>>>> f49d8e2c5fdb7c5e2787877a27912e2b5515b728
